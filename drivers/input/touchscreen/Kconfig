@@ -1253,7 +1253,7 @@ config TOUCHSCREEN_ROHM_BU21023
 	  module will be called bu21023_ts.
 
 config TOUCHSCREEN_ST
-	bool "STMicroelectronics Touchscreen Driver"
+	tristate "STMicroelectronics Touchscreen Driver"
 	depends on I2C
 	help
 	  Say Y here if you have a STMicroelectronics Touchscreen.
